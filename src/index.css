@@ -13,3 +13,147 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+h2 {
+  display: block;
+  margin: 0;
+}
+
+
+:root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #010101;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.tag {
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.location {
+  font-size: 18px;
+  color: gray;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.stats li {
+  text-align: center;
+  margin-right: 30px;
+}
+
+.label {
+  font-size: 16px;
+  color: gray;
+}
+
+.quantity {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.statistics {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.stat-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.percentage {
+  margin-left: 10px;
+  font-size: 18px;
+  color: gray;
+}
+
+.friend-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.status {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.transaction-history {
+  margin-top: 40px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction-history th,
+.transaction-history td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid lightgray;
+}
+
+.transaction-history th {
+  font-weight: bold;
+}
+
+.transaction-history tbody tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
