@@ -1,16 +1,8 @@
-const createColor = () => {
-  const color =
-    'rgba(' + Math.round(Math.random() * 255) +',' +
-              Math.round(Math.random() * 255) +',' +
-              Math.round(Math.random() * 255) +',' + 0.2 + ')';
-  return color;
-};
-
-export const TransactionHistory = ({ items }) => {
+const TransactionHistory = ({ items }) => {
   return (
     <table className="transaction-history">
       <thead>
-              <tr srtyle={{ backgroundColor: createColor() }}>
+              <tr>
           <th>Type</th>
           <th>Amount</th>
           <th>Currency</th>
@@ -28,3 +20,4 @@ export const TransactionHistory = ({ items }) => {
     </table>
   );
 };
+export default TransactionHistory;
