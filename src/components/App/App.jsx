@@ -11,14 +11,12 @@ import transaction from '../Data/transactions.json';
 const App = () => {
   return (
     <div>
-      <h1>My Profile</h1>
       <Profile
         username={user.username}
         tag={user.tag}
         location={user.location}
         avatar={user.avatar}
         stats={user.stats}
-        
       />
       <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends} />
